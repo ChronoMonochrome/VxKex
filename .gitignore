@@ -1,0 +1,27 @@
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.userprefs
+
+# Build folders
+**/Debug/
+**/Release/
+**/x64/Debug/
+**/x64/Release/
+**/Win32/Debug/
+**/Win32/Release/
+
+# Other Visual Studio generated files
+*.sdf
+*.opensdf
+*.cache
+*.ilk
+*.idb
+*.pdb
+*.ipch
+*.aps
+*.ncb
+*.res
+*.log
+*.exe
