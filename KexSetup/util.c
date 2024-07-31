@@ -348,7 +348,7 @@ VOID KexSetupMoveFileSpecToDirectory(
 		0);
 
 	if (FindHandle == INVALID_HANDLE_VALUE) {
-		ErrorBoxF(L"VxKex setup files could not be found. %s", GetLastErrorAsString());
+		ErrorBoxF(L"VxKex setup files could not be found (%s). %s", FileSpec, GetLastErrorAsString());
 		RtlRaiseStatus(STATUS_KEXSETUP_FAILURE);
 	}
 
