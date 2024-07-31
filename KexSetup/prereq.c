@@ -162,21 +162,21 @@ VOID KexSetupCheckForPrerequisites(
 			StringCchCat(
 				MainText,
 				ARRAYSIZE(MainText),
-				L"\r\n    • Service Pack 1 (SP1) for Windows® 7");
+				L"\r\n    Â• Service Pack 1 (SP1) for WindowsÂ® 7");
 		}
 
 		if (!DllDirectoriesUpdatePresent) {
 			StringCchCat(
 				MainText,
 				ARRAYSIZE(MainText),
-				L"\r\n    • Update KB2533623 (DllDirectories update)");
+				L"\r\n    Â• Update KB2533623 (DllDirectories update)");
 		}
 
 		if (!PlatformUpdatePresent) {
 			StringCchCat(
 				MainText,
 				ARRAYSIZE(MainText),
-				L"\r\n    • Update KB2670838 (Platform Update)");
+				L"\r\n    Â• Update KB2670838 (Platform Update)");
 		}
 
 		RtlZeroMemory(&TaskDialogConfig, sizeof(TaskDialogConfig));

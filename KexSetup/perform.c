@@ -27,7 +27,7 @@ VOID KexSetupWriteUninstallEntry(
 		GetDateFormat(LOCALE_INVARIANT, 0, NULL, L"yyyyMMdd", FormattedDate, ARRAYSIZE(FormattedDate));
 		StringCchPrintf(UninstallString, ARRAYSIZE(UninstallString), L"%s\\KexSetup.exe /UNINSTALL", KexDir);
 
-		KexSetupRegWriteString(KeyHandle, L"DisplayName",		L"VxKex API Extensions for Windows® 7");
+		KexSetupRegWriteString(KeyHandle, L"DisplayName",		L"VxKex API Extensions for WindowsÂ® 7");
 		KexSetupRegWriteString(KeyHandle, L"DisplayVersion",	_L(KEX_VERSION_STR));
 		KexSetupRegWriteString(KeyHandle, L"Publisher",			L"vxiiduu");
 		KexSetupRegWriteString(KeyHandle, L"InstallDate",		FormattedDate);
