@@ -31,7 +31,7 @@
 //
 // Uncomment the macro definition to keep asserts enabled in release builds.
 //
-//#define RELEASE_ASSERTS_ENABLED
+#define RELEASE_ASSERTS_ENABLED
 
 //
 // == Guidelines for ASSERT Macro Usage in the VxKex Codebase ==
