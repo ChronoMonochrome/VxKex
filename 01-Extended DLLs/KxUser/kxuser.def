@@ -79,6 +79,7 @@ EXPORTS
 	EnableNonClientDpiScaling
 	AreDpiAwarenessContextsEqual
 	IsValidDpiAwarenessContext
+	AdjustWindowRectExForDpi = AdjustWindowRectEx
 
 	;;
 	;; sysmetrc.c
